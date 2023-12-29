@@ -6,6 +6,8 @@ mkdir -p ../page/Feiertage
 
 cp -r ../Ferien/* ../page/Ferien/
 cp -r ../Feiertage/* ../page/Feiertage/
+python3 add_exchange_info.py ../page/Feiertage
+
 cp ../CNAME ../page/
 cp ../robots.txt ../page/
 cp ../sitemap.txt ../page
